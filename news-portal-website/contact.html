@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - bigwyse News Portal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/mylogo.png" alt="bigwyse News Logo" class="logo-image" width="150" height="70">
+                <h1>BIGWYSE NEWS</h1>
+                </img>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="latest-news.html">Latest News</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="login.html" class="login-btn">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Contact Us</h1>
+        <p>Get in touch with our team</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <div class="info-item">
+                    <h3>📧 Email</h3>
+                    <p>info@bigwyse.com</p>
+                    <p>tips@bigwyse.com (News Tips)</p>
+                </div>
+                <div class="info-item">
+                    <h3>📞 Phone</h3>
+                    <p>Main: +44 555 123-4567</p>
+                    <p>Editorial: +44 555 123-4568</p>
+                </div>
+                <div class="info-item">
+                    <h3>📍 Address</h3>
+                    <p>323 Main Street<br>Bigwyse City, ST 12345<br>United Kingdom</p>
+                </div>
+                <div class="info-item">
+                    <h3>🕐 Business Hours</h3>
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Send us a Message</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+     <!-- Footer -->
+         <footer class="footer">
+            <div class="footer-content">
+            <p>&copy; 2024 bigwyse News Portal. All rights reserved.</p>
+            <p>Contact us: info@bigwyse.com | Phone: +44 555 123-4567</p>
+        </div>
+    </footer>
+
+    <script src="js/contact.js"></script>
+</body>
+</html>

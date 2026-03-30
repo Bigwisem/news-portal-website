@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest News - Community News Portal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+               <img src="images/mylogo.png" alt="bigwyse News Logo" class="logo-image" width="150" height="70">
+               <h1>BIGWYSE NEWS</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="latest-news.html" class="active">Latest News</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html" class="login-btn">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search news..." class="search-bar">
+        <button class="search-btn">🔍 Search</button>
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Latest News</h1>
+        <p>All the latest updates from our community</p>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <h3>Filter by Category</h3>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All News</button>
+            <button class="filter-btn" data-filter="politics">Politics</button>
+            <button class="filter-btn" data-filter="business">Business</button>
+            <button class="filter-btn" data-filter="technology">Technology</button>
+            <button class="filter-btn" data-filter="health">Health</button>
+            <button class="filter-btn" data-filter="sports">Sports</button>
+            <button class="filter-btn" data-filter="entertainment">Entertainment</button>
+        </div>
+    </section>
+
+    <!-- News List -->
+    <section class="news-list-section">
+        <div class="news-list" id="newsList">
+            <!-- News items will be loaded here by JavaScript -->
+        </div>
+    </section>
+
+     <!-- Footer -->
+         <footer class="footer">
+            <div class="footer-content">
+            <p>&copy; 2024 bigwyse News Portal. All rights reserved.</p>
+            <p>Contact us: info@bigwyse.com | Phone: +44 555 123-4567</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/latest-news.js"></script>
+</body>
+</html>
