@@ -14,11 +14,7 @@ function displayNews(news) {
     if (container) {
         container.innerHTML = news.map(item => `
             <div class="news-item" onclick="viewNews(${item.id})">
-
-                <div class="news-item-image">
-                    <img src="${item.image}" alt="${item.title}" width="100%">
-                </div>
-
+                <div class="news-item-image">${item.image}</div>
                 <div class="news-item-content">
                     <span class="news-item-category">${item.category.toUpperCase()}</span>
                     <h3 class="news-item-title">${item.title}</h3>
@@ -28,7 +24,6 @@ function displayNews(news) {
                         <span>${formatDate(item.date)}</span>
                     </div>
                 </div>
-
             </div>
         `).join('');
     }

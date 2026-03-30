@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home - bigwyse News Portal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/mylogo.png" alt="bigwyse News Logo" class="logo-image" width="150" height="70">
+                <h1>BIGWYSE NEWS</h1>
+            </img>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="homepage.html" class="active">Home</a></li>
+                <li><a href="latest-news.html">Latest News</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html" class="login-btn">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search news, announcements..." class="search-bar">
+        <button class="search-btn">🔍 Search</button>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to bigwyse Community News Portal</h2>
+            <p>Stay informed with the latest local news, announcements, and community updates</p>
+        </div>
+    </section>
+
+    <!-- Featured News -->
+    <section class="featured-section">
+        <h2>Featured Stories</h2>
+        <div class="featured-grid" id="featuredNews">
+            <!-- Featured news will be loaded here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Latest News -->
+    <section class="latest-section">
+        <h2>Latest News</h2>
+        <div class="news-grid" id="latestNews">
+            <!-- Latest news will be loaded here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section">
+        <h2>Browse by Category</h2>
+        <div class="category-buttons">
+            <button class="category-btn" data-category="all">All</button>
+            <button class="category-btn" data-category="politics">Politics</button>
+            <button class="category-btn" data-category="business">Business</button>
+            <button class="category-btn" data-category="technology">Technology</button>
+            <button class="category-btn" data-category="health">Health</button>
+            <button class="category-btn" data-category="sports">Sports</button>
+            <button class="category-btn" data-category="entertainment">Entertainment</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 bigwyse News Portal. All rights reserved.</p>
+            <p>Contact us: info@bigwyse.com | Phone: +44 555 123-4567</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

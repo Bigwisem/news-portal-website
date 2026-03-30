@@ -8,7 +8,7 @@ const newsData = [
         category: "education",
         date: "2024-03-10",
         author: "Sarah Johnson",
-        image: "images/award.png",
+        image: "🏆",
         featured: true
     },
     {
@@ -19,7 +19,7 @@ const newsData = [
         category: "community",
         date: "2024-03-09",
         author: "Michael Chen",
-        image: "images/communityCenter.png",
+        image: "🏢",
         featured: true
     },
     {
@@ -30,7 +30,7 @@ const newsData = [
         category: "business",
         date: "2024-03-08",
         author: "Emily Rodriguez",
-        image: "images/techStartup.png",
+        image: "💻",
         featured: true
     },
     {
@@ -41,8 +41,8 @@ const newsData = [
         category: "sports",
         date: "2024-03-07",
         author: "James Wilson",
-        image: "images/localSportsTeam.png",
-        featured: true
+        image: "🏀",
+        featured: false
     },
     {
         id: 5,
@@ -52,8 +52,8 @@ const newsData = [
         category: "health",
         date: "2024-03-06",
         author: "Dr. Lisa Park",
-        image: "images/healthcare.png",
-        featured: true
+        image: "🏥",
+        featured: false
     },
     {
         id: 6,
@@ -63,8 +63,8 @@ const newsData = [
         category: "environment",
         date: "2024-03-05",
         author: "Green Earth Team",
-        image: "images/EnvironmentalGroupPlants.png",
-        featured: true
+        image: "🌳",
+        featured: false
     },
     {
         id: 7,
@@ -74,8 +74,8 @@ const newsData = [
         category: "politics",
         date: "2024-03-04",
         author: "David Thompson",
-        image: "images/NewInfrastructureProject.png",
-        featured: true
+        image: "🏗️",
+        featured: false
     },
     {
         id: 8,
@@ -85,8 +85,8 @@ const newsData = [
         category: "entertainment",
         date: "2024-03-03",
         author: "Arts & Culture Weekly",
-        image: "images/ArtistWinsAward.png",
-        featured: true
+        image: "🎨",
+        featured: false
     },
     {
         id: 9,
@@ -96,8 +96,8 @@ const newsData = [
         category: "entertainment",
         date: "2024-03-02",
         author: "Events Team",
-        image: "images/foodFestival.png",
-        featured: true
+        image: "🍽️",
+        featured: false
     },
     {
         id: 10,
@@ -107,8 +107,8 @@ const newsData = [
         category: "education",
         date: "2024-03-01",
         author: "Library Services",
-        image: "images/publicLibrary.png",
-        featured: true
+        image: "📚",
+        featured: false
     },
     {
         id: 11,
@@ -118,8 +118,8 @@ const newsData = [
         category: "business",
         date: "2024-02-28",
         author: "Business News Daily",
-        image: "images/sustainabilityAward.png",
-        featured: true
+        image: "♻️",
+        featured: false
     },
     {
         id: 12,
@@ -129,12 +129,12 @@ const newsData = [
         category: "community",
         date: "2024-02-27",
         author: "Parks & Recreation",
-        image: "images/springCleanup.png",
-        featured: true
+        image: "🧹",
+        featured: false
     }
 ];
 
-// Mock Announcements // 
+// Mock Announcements Data
 const announcementsData = [
     {
         id: 1,
@@ -266,7 +266,7 @@ const eventsData = [
 // User Database (for login)
 const users = [
     {
-        username: "bigdemo",
+        username: "demo",
         password: "password123",
         email: "demo@communitynews.com",
         name: "Demo User"
